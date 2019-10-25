@@ -1,0 +1,21 @@
+name: ela
+channels:
+  - conda-forge
+dependencies:
+  - rasterio
+  - cartopy
+  - geopandas
+  - pandas
+  - nltk
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - vtk
+  - pyqt
+  - mayavi
+  - pyvista
+  - itkwidgets
+  - panel
+  - pip:
+    - git+git://github.com/DennisHgj/pyela@test
+    - git+git://github.com/OpenGeoVis/PVGeo@master
